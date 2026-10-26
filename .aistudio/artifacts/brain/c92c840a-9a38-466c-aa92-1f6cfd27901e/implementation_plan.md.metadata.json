@@ -1,0 +1,6 @@
+{
+  "summary":  "Rencana implementasi aplikasi Android CIPHERA: Zero-Knowledge Offline Cryptographic Vault menggunakan Jetpack Compose, PBKDF2-SHA256 (600.000 iterasi), AES-256-GCM dengan AAD, Live TOTP 2FA, Smart Merge, Biometric Unlock, dan Storage Access Framework.",
+  "updatedAt":  "2026-10-26T07:29:39.033794961Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

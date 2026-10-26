@@ -1,0 +1,6 @@
+{
+  "name": "CIPHERA",
+  "description": "Zero-Knowledge Offline Cryptographic Vault with AES-256-GCM, PBKDF2-600K, TOTP, and Smart Merge",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

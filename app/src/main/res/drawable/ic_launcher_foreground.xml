@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Cryptographic Hexagonal Shield -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,26 L78,39.5 L78,68.5 L54,82 L30,68.5 L30,39.5 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="30"
+                android:startY="26"
+                android:endX="78"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="26"
+                android:endX="54"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A10B981" />
+                <item android:offset="1.0" android:color="#2006B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Circuit Hexagon -->
+    <path
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000"
+        android:pathData="M54,34 L71,43.5 L71,64.5 L54,74 L37,64.5 L37,43.5 Z" />
+
+    <!-- Center Keyhole Core Circle -->
+    <path
+        android:fillColor="#090D16"
+        android:strokeWidth="2.5"
+        android:pathData="M54,44 A6,6 0 1,1 53.99,44 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="48"
+                android:startY="44"
+                android:endX="60"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Keyhole Stem -->
+    <path
+        android:pathData="M51.5,53 L50,63 L58,63 L56.5,53 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="53"
+                android:endX="58"
+                android:endY="63"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Corner Circuit Nodes -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,23 A3,3 0 1,1 53.99,23 Z" />
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M78,36.5 A3,3 0 1,1 77.99,36.5 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M30,36.5 A3,3 0 1,1 29.99,36.5 Z" />
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M54,82 A3,3 0 1,1 53.99,82 Z" />
+</vector>

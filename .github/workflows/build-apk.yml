@@ -1,3 +1,4 @@
+
 name: Build CIPHERA APK
 
 on:
@@ -10,7 +11,8 @@ permissions:
 
 jobs:
   build-debug-apk:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -22,10 +24,10 @@ jobs:
           java-version: '21'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Install Android SDK packages
-        run: sdkmanager "platform-tools" "platforms;android-36" "platforms;android-36-ext1" "build-tools;36.0.0"
+        run: sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
